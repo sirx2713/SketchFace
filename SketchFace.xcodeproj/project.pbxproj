@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ECC8F5E2CDB8D7700536DE5 /* SketchFace Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9ECC8F5D2CDB8D7700536DE5 /* SketchFace Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ECC8F5F2CDB8D7700536DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECC8F512CDB8D7700536DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECC8F5C2CDB8D7700536DE5;
+			remoteInfo = "SketchFace Watch App";
+		};
+		9ECC8F702CDB8D7900536DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECC8F512CDB8D7700536DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECC8F5C2CDB8D7700536DE5;
+			remoteInfo = "SketchFace Watch App";
+		};
+		9ECC8F7A2CDB8D7900536DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECC8F512CDB8D7700536DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECC8F5C2CDB8D7700536DE5;
+			remoteInfo = "SketchFace Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9ECC8F862CDB8D7900536DE5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9ECC8F5E2CDB8D7700536DE5 /* SketchFace Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9ECC8F572CDB8D7700536DE5 /* SketchFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECC8F5D2CDB8D7700536DE5 /* SketchFace Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SketchFace Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECC8F6F2CDB8D7900536DE5 /* SketchFace Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SketchFace Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECC8F792CDB8D7900536DE5 /* SketchFace Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SketchFace Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9ECC8F612CDB8D7700536DE5 /* SketchFace Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SketchFace Watch App";
+			sourceTree = "<group>";
+		};
+		9ECC8F722CDB8D7900536DE5 /* SketchFace Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SketchFace Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9ECC8F7C2CDB8D7900536DE5 /* SketchFace Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SketchFace Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECC8F5A2CDB8D7700536DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC8F6C2CDB8D7900536DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC8F762CDB8D7900536DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECC8F502CDB8D7700536DE5 = {
+			isa = PBXGroup;
+			children = (
+				9ECC8F612CDB8D7700536DE5 /* SketchFace Watch App */,
+				9ECC8F722CDB8D7900536DE5 /* SketchFace Watch AppTests */,
+				9ECC8F7C2CDB8D7900536DE5 /* SketchFace Watch AppUITests */,
+				9ECC8F582CDB8D7700536DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECC8F582CDB8D7700536DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECC8F572CDB8D7700536DE5 /* SketchFace.app */,
+				9ECC8F5D2CDB8D7700536DE5 /* SketchFace Watch App.app */,
+				9ECC8F6F2CDB8D7900536DE5 /* SketchFace Watch AppTests.xctest */,
+				9ECC8F792CDB8D7900536DE5 /* SketchFace Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECC8F562CDB8D7700536DE5 /* SketchFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECC8F872CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace" */;
+			buildPhases = (
+				9ECC8F552CDB8D7700536DE5 /* Resources */,
+				9ECC8F862CDB8D7900536DE5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECC8F602CDB8D7700536DE5 /* PBXTargetDependency */,
+			);
+			name = SketchFace;
+			packageProductDependencies = (
+			);
+			productName = SketchFace;
+			productReference = 9ECC8F572CDB8D7700536DE5 /* SketchFace.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9ECC8F5C2CDB8D7700536DE5 /* SketchFace Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECC8F832CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace Watch App" */;
+			buildPhases = (
+				9ECC8F592CDB8D7700536DE5 /* Sources */,
+				9ECC8F5A2CDB8D7700536DE5 /* Frameworks */,
+				9ECC8F5B2CDB8D7700536DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9ECC8F612CDB8D7700536DE5 /* SketchFace Watch App */,
+			);
+			name = "SketchFace Watch App";
+			packageProductDependencies = (
+			);
+			productName = "SketchFace Watch App";
+			productReference = 9ECC8F5D2CDB8D7700536DE5 /* SketchFace Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ECC8F6E2CDB8D7900536DE5 /* SketchFace Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECC8F8A2CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace Watch AppTests" */;
+			buildPhases = (
+				9ECC8F6B2CDB8D7900536DE5 /* Sources */,
+				9ECC8F6C2CDB8D7900536DE5 /* Frameworks */,
+				9ECC8F6D2CDB8D7900536DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECC8F712CDB8D7900536DE5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9ECC8F722CDB8D7900536DE5 /* SketchFace Watch AppTests */,
+			);
+			name = "SketchFace Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "SketchFace Watch AppTests";
+			productReference = 9ECC8F6F2CDB8D7900536DE5 /* SketchFace Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ECC8F782CDB8D7900536DE5 /* SketchFace Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECC8F8D2CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace Watch AppUITests" */;
+			buildPhases = (
+				9ECC8F752CDB8D7900536DE5 /* Sources */,
+				9ECC8F762CDB8D7900536DE5 /* Frameworks */,
+				9ECC8F772CDB8D7900536DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECC8F7B2CDB8D7900536DE5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9ECC8F7C2CDB8D7900536DE5 /* SketchFace Watch AppUITests */,
+			);
+			name = "SketchFace Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "SketchFace Watch AppUITests";
+			productReference = 9ECC8F792CDB8D7900536DE5 /* SketchFace Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECC8F512CDB8D7700536DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					9ECC8F562CDB8D7700536DE5 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					9ECC8F5C2CDB8D7700536DE5 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					9ECC8F6E2CDB8D7900536DE5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9ECC8F5C2CDB8D7700536DE5;
+					};
+					9ECC8F782CDB8D7900536DE5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9ECC8F5C2CDB8D7700536DE5;
+					};
+				};
+			};
+			buildConfigurationList = 9ECC8F542CDB8D7700536DE5 /* Build configuration list for PBXProject "SketchFace" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECC8F502CDB8D7700536DE5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9ECC8F582CDB8D7700536DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECC8F562CDB8D7700536DE5 /* SketchFace */,
+				9ECC8F5C2CDB8D7700536DE5 /* SketchFace Watch App */,
+				9ECC8F6E2CDB8D7900536DE5 /* SketchFace Watch AppTests */,
+				9ECC8F782CDB8D7900536DE5 /* SketchFace Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ECC8F552CDB8D7700536DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC8F5B2CDB8D7700536DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC8F6D2CDB8D7900536DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC8F772CDB8D7900536DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECC8F592CDB8D7700536DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC8F6B2CDB8D7900536DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECC8F752CDB8D7900536DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ECC8F602CDB8D7700536DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECC8F5C2CDB8D7700536DE5 /* SketchFace Watch App */;
+			targetProxy = 9ECC8F5F2CDB8D7700536DE5 /* PBXContainerItemProxy */;
+		};
+		9ECC8F712CDB8D7900536DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECC8F5C2CDB8D7700536DE5 /* SketchFace Watch App */;
+			targetProxy = 9ECC8F702CDB8D7900536DE5 /* PBXContainerItemProxy */;
+		};
+		9ECC8F7B2CDB8D7900536DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECC8F5C2CDB8D7700536DE5 /* SketchFace Watch App */;
+			targetProxy = 9ECC8F7A2CDB8D7900536DE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9ECC8F812CDB8D7900536DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ECC8F822CDB8D7900536DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9ECC8F842CDB8D7900536DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SketchFace Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SketchFace;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iSAD.SketchFace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		9ECC8F852CDB8D7900536DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SketchFace Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SketchFace;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iSAD.SketchFace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		9ECC8F882CDB8D7900536DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				INFOPLIST_KEY_CFBundleDisplayName = SketchFace;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iSAD.SketchFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9ECC8F892CDB8D7900536DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				INFOPLIST_KEY_CFBundleDisplayName = SketchFace;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iSAD.SketchFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ECC8F8B2CDB8D7900536DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iSAD.SketchFace-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchFace Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SketchFace Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		9ECC8F8C2CDB8D7900536DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iSAD.SketchFace-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchFace Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SketchFace Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		9ECC8F8E2CDB8D7900536DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iSAD.SketchFace-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SketchFace Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		9ECC8F8F2CDB8D7900536DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3JR62TZ76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iSAD.SketchFace-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SketchFace Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECC8F542CDB8D7700536DE5 /* Build configuration list for PBXProject "SketchFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC8F812CDB8D7900536DE5 /* Debug */,
+				9ECC8F822CDB8D7900536DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECC8F832CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC8F842CDB8D7900536DE5 /* Debug */,
+				9ECC8F852CDB8D7900536DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECC8F872CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC8F882CDB8D7900536DE5 /* Debug */,
+				9ECC8F892CDB8D7900536DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECC8F8A2CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC8F8B2CDB8D7900536DE5 /* Debug */,
+				9ECC8F8C2CDB8D7900536DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECC8F8D2CDB8D7900536DE5 /* Build configuration list for PBXNativeTarget "SketchFace Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECC8F8E2CDB8D7900536DE5 /* Debug */,
+				9ECC8F8F2CDB8D7900536DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECC8F512CDB8D7700536DE5 /* Project object */;
+}
